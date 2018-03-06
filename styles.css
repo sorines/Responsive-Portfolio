@@ -4,7 +4,7 @@ body {
     height:650px;
     width: 960px;
     border:#dddddd;
-    background: url(../images/greyzz/greyzz_@2X.png);
+    background-image:url("Basic-Portfolio/assest/images/concrete_seamless/concrete_seamless.png");
     font-size: 18px;
     margin:auto;
     line-height: 34px;
@@ -242,6 +242,43 @@ background-color:#ffffff;
 font-size: 30px;
 height:100px;
 width:50px;
+}    
 
 
+/* Extra small devices (portrait phones, less than 576px)
+/* No media query since this is the default in Bootstrap*/
+
+ /*Small devices (landscape phones, 576px and up)*/
+ @media only screen and (min-width: 640px) {
+    /* For desktop: */
+  section {
+
+    width:50%;
+  }
+ form {
+
+    width:50%;
+  }
+ aside {
+
+    width:50%;
+  }
 }
+
+
+
+ /*Extra large devices (large desktops, 1200px and up)*/
+ @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    FORM aside section{
+        width:60%;
+    }
+}
+@media only screen and (min-width: 980px) {
+    /* For desktop: */
+   form aside section{
+
+    width:80%;
+   }
+}
+
