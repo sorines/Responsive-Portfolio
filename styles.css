@@ -4,7 +4,6 @@ body {
     height:650px;
     width: 960px;
     border:#dddddd;
-    background-image:url("Basic-Portfolio/assest/images/concrete_seamless/concrete_seamless.png");
     font-size: 18px;
     margin:auto;
     line-height: 34px;
@@ -14,6 +13,13 @@ body {
     border:#dddddd 1px;
     
     
+    }
+
+    .fstPage{
+        background-image:url("https://github.com/sorines/Basic-Portfolio/blob/master/assest/images/concrete_seamless/concrete_seamless.png");
+        width:100%;
+        background-size:cover;
+
     }
     
 ul {
