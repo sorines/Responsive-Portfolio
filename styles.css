@@ -15,12 +15,7 @@ body {
     
     }
 
-    .fstPage{
-        background-image:url("https://github.com/sorines/Basic-Portfolio/blob/master/assest/images/concrete_seamless/concrete_seamless.png");
-        width:100%;
-        background-size:cover;
 
-    }
     
 ul {
    
@@ -255,36 +250,60 @@ width:50px;
 /* No media query since this is the default in Bootstrap*/
 
  /*Small devices (landscape phones, 576px and up)*/
- @media only screen and (min-width: 640px) {
-    /* For desktop: */
+ @media  screen and (max-width: 500px) {
+    
   section {
 
-    width:50%;
+   
+    float:none;
   }
  form {
-
-    width:50%;
+    max-width:640px;
+    float:none;
   }
- aside {
-
-    width:50%;
-  }
+ 
+ aside{
+  
+    float:none;
+}
+ 
 }
 
 
 
- /*Extra large devices (large desktops, 1200px and up)*/
- @media only screen and (min-width: 768px) {
+ /*tablets*/
+ @media  screen and (min-width: 640px) {
     /* For desktop: */
-    FORM aside section{
-        width:60%;
+    FORM {
+        max-width: 768px
+        
     }
 }
-@media only screen and (min-width: 980px) {
-    /* For desktop: */
-   form aside section{
+    section {
 
-    width:80%;
+        max-width: 768px
+  }
+
+  aside{
+    max-width:768px;
+    float:none;
+}
+/* this is for desktop*/
+@media  screen and (min-width:768px)  {
+    /* For desktop: */
+    section{
+      
+    max-width:980px;
    }
+
+   form {
+  
+    max-width:980px;
+   }
+    aside{
+        max-width:980px;
+        
+    }
+  
 }
 
